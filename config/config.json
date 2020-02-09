@@ -1,0 +1,14 @@
+{
+  "development": {
+    "storage": "./db/mooden.sqlite3",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": ":memory"
+  },
+  "production": {
+    "storage": "./db/mooden.sqlite3",
+    "dialect": "sqlite"
+  }
+}
